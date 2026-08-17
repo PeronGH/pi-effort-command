@@ -1,15 +1,27 @@
 # pi-effort-command
 
-To install dependencies:
+pi extension that adds the `/effort` command to set the model's reasoning effort (thinking level).
 
-```bash
-bun install
+## Usage
+
+```
+/effort             # show current effort
+/effort high        # set effort to high
+/effort xhigh       # if unsupported, pi clamps and reports the effective level
 ```
 
-To run:
+Levels: `off`, `minimal`, `low`, `medium`, `high`, `xhigh`, `max` (Tab-completes).
+
+The level is clamped to model capabilities by pi itself (non-reasoning models always use `off`); `/effort` reports the effective level when clamping happens.
+
+## Install
 
 ```bash
-bun run index.ts
+pi install ./path/to/pi-effort-command
 ```
 
-This project was created using `bun init` in bun v1.3.14. [Bun](https://bun.com) is a fast all-in-one JavaScript runtime.
+Or try it once:
+
+```bash
+pi -e ./src/index.ts
+```
