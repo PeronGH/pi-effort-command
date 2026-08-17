@@ -2,7 +2,12 @@
 	"name": "pi-effort-command",
 	"version": "0.1.0",
 	"description": "pi extension that adds /effort to set the model's reasoning effort (thinking level)",
+	"license": "MIT",
 	"type": "module",
+	"files": [
+		"src",
+		"README.md"
+	],
 	"keywords": [
 		"pi-package"
 	],
