@@ -17,11 +17,11 @@ The level is clamped to model capabilities by pi itself (non-reasoning models al
 ## Install
 
 ```bash
-pi install ./path/to/pi-effort-command
+pi install npm:pi-effort-command
 ```
 
 Or try it once:
 
 ```bash
-pi -e ./src/index.ts
+pi -e npm:pi-effort-command
 ```
