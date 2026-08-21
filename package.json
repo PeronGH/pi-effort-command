@@ -1,11 +1,11 @@
 {
 	"name": "pi-effort-command",
-	"version": "0.1.0",
+	"version": "0.1.1",
 	"description": "pi extension that adds /effort to set the model's reasoning effort (thinking level)",
 	"license": "MIT",
 	"type": "module",
 	"files": [
-		"src",
+		"index.ts",
 		"README.md"
 	],
 	"keywords": [
@@ -13,7 +13,7 @@
 	],
 	"pi": {
 		"extensions": [
-			"./src/index.ts"
+			"./index.ts"
 		]
 	},
 	"peerDependencies": {
