@@ -1,5 +1,8 @@
 # pi-effort-command
 
+> [!WARNING]
+> **Archived.** pi now has a built-in `/thinking <level>` command, so this extension is no longer needed.
+
 pi extension that adds the `/effort` command to set the model's reasoning effort (thinking level).
 
 ## Usage
